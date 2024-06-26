@@ -4,7 +4,7 @@ iatest=$(expr index "$-" i)
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
-if [ -f /usr/bin/fastfetch] || [ -f /opt/homebrew/bin/fastfetch ]; then
+if [ -f /usr/bin/fastfetch ] || [ -f /opt/homebrew/bin/fastfetch ]; then
 	fastfetch
 fi
 
@@ -67,9 +67,9 @@ alias snano='sedit'
 alias vim='nvim'
 
 # My alias
-if [ -f /mnt/d/00_Proyectos/ ]; then
+if [ -d "/mnt/d/00_Proyectos/" ]; then
 	alias dev='cd /mnt/d/00_Proyectos/'
-elif [ -f ~/Developer/]; then
+elif [ -d "$HOME/Developer/" ]; then
 	alias dev='cd ~/Developer/'
 fi
 alias spotify='ncspot'
