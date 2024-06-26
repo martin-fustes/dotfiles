@@ -17,8 +17,8 @@ _darcs
 
 build       # build folder
 
-.+~          # emacs backup files
-\#.*\#       # emacs autosave files
+.+~         # emacs backup files
+\#.*\#      # emacs autosave files
 
 ^/README.*
 ^/LICENSE.*
