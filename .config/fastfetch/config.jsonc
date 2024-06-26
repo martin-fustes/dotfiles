@@ -1,0 +1,30 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "kernel",
+    "packages",
+    "shell",
+    "break",
+    "cpu",
+    {
+      "type": "gpu",
+      "key": "GPU"
+    },
+    {
+      "type": "display",
+      "key": "Display"
+    },
+    "memory",
+    "disk",
+    "break",
+    "processes",
+    "uptime",
+    {
+      "type": "battery",
+      "format": "{/4}{-}{/}{4}{?5} [{5}]{?}"
+    }
+  ]
+}

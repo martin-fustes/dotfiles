@@ -1,0 +1,9 @@
+[user]
+	email = martinfnovo@gmail.com
+	name = martin-fustes
+[init]
+	defaultBranch = main
+[alias]
+  tree = log --graph --decorate --all --oneline
+[safe]
+	directory = /mnt/d/00_Proyectos
