@@ -1,13 +1,17 @@
 # Install
 
-```
+```bash
 git clone git@github.com:martin-fustes/dotfiles.git ~/
 cd ~/dotfiles/
-make setup
+make
 ```
 
 # Update dotfiles
-`make`
+```bash
+make update
+```
 
 # Delete dotfiles
-`make delete`
+```bash
+make delete
+```
